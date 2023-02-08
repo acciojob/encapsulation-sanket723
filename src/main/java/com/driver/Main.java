@@ -5,10 +5,10 @@ public class Main {
         RWOnly obj = new RWOnly();
 //        obj.name = "encapsulation";
 //        System.out.println(obj.name);
-        // Error : name has private access in com.driver.RWOnly
+//        Error : name has private access in com.driver.RWOnly
 
-        obj.setter("encapsulation");
-        obj.getter();
+        obj.setName("encapsulation");
+        obj.getName();
 
     }
 
